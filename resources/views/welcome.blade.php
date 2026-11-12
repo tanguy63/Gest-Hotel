@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="GEST-HOSTEL est une plateforme professionnelle de gestion hôtelière : chambres, réservations, clients, paiements, personnel et suivi de votre établissement.">
+    <meta name="description" content="GEST-HOTEL est une plateforme professionnelle de gestion hôtelière : chambres, réservations, clients, paiements, personnel et suivi de votre établissement.">
 
-    <title>GEST-HOSTEL | La gestion hôtelière intelligente</title>
+    <title>GEST-HOTEL | La gestion hôtelière intelligente</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -211,7 +211,7 @@
 
             <p class="mt-7 max-w-xl text-base leading-8 text-slate-600">
 
-                GEST-HOSTEL centralise la gestion de votre hôtel, auberge, résidence ou établissement d'hébergement.
+                GEST-HOTEL centralise la gestion de votre hôtel, auberge, résidence ou établissement d'hébergement.
 
                 Gérez vos chambres, vos réservations, vos clients, vos paiements et votre personnel depuis une seule plateforme.
 
@@ -222,7 +222,7 @@
                 <a href="{{ route('inscription') }}"
                    class="inline-flex items-center justify-center gap-3 rounded-xl bg-[#2457A7] px-7 py-4 text-sm font-bold text-white shadow-xl shadow-blue-200 transition hover:-translate-y-1 hover:bg-blue-800">
 
-                    Découvrir GEST-HOSTEL
+                    Découvrir GEST-HOTEL
 
                     <span>→</span>
 
@@ -413,7 +413,7 @@
 
             <p class="mt-6 text-sm leading-8 text-slate-500">
 
-                GEST-HOSTEL a pour objectif de simplifier les opérations quotidiennes des établissements d'hébergement.
+                GEST-HOTEL a pour objectif de simplifier les opérations quotidiennes des établissements d'hébergement.
 
                 Au lieu de disperser les informations entre plusieurs outils, vous disposez d'un espace centralisé pour organiser votre activité.
 
@@ -677,7 +677,7 @@
             </h2>
 
             <p class="mt-6 text-sm leading-8 text-slate-500">
-                GEST-HOSTEL permet à un utilisateur autorisé d'être associé à plusieurs établissements et de travailler dans l'espace actif auquel il a accès.
+                GEST-HOTEL permet à un utilisateur autorisé d'être associé à plusieurs établissements et de travailler dans l'espace actif auquel il a accès.
             </p>
 
             <div class="mt-8 space-y-5">
@@ -740,7 +740,7 @@
                     </div>
 
                     <span class="rounded-lg bg-blue-50 px-3 py-2 text-xs font-bold text-[#2457A7]">
-                        GEST-HOSTEL
+                        GEST-HOTEL
                     </span>
 
                 </div>
@@ -889,7 +889,7 @@
             </span>
 
             <h2 class="mt-7 text-3xl leading-tight font-extrabold sm:text-5xl">
-                Découvrez GEST-HOSTEL pendant 7 jours.
+                Découvrez GEST-HOTEL pendant 7 jours.
             </h2>
 
             <p class="mt-6 max-w-xl text-sm leading-8 text-blue-100">
@@ -1051,7 +1051,7 @@
         </h2>
 
         <p class="mx-auto mt-5 max-w-2xl text-sm leading-8 text-slate-500">
-            Rejoignez GEST-HOSTEL et simplifiez l'organisation quotidienne de votre établissement.
+            Rejoignez GEST-HOTEL et simplifiez l'organisation quotidienne de votre établissement.
         </p>
 
         <div class="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
@@ -1094,7 +1094,7 @@
                     </div>
 
                     <span class="text-xl font-extrabold">
-                        GEST-HOSTEL
+                        GEST-HOTEL
                     </span>
 
                 </a>
@@ -1137,7 +1137,7 @@
                 <div class="mt-7 rounded-xl border border-slate-800 bg-slate-900 p-4">
 
                     <p class="text-xs font-bold text-white">
-                        GEST-HOSTEL
+                        GEST-HOTEL
                     </p>
 
                     <p class="mt-2 text-xs leading-6 text-slate-400">
@@ -1153,7 +1153,7 @@
 
         <div class="mt-12 border-t border-slate-800 pt-7 text-center text-xs text-slate-500">
 
-            © {{ date('Y') }} GEST-HOSTEL. Tous droits réservés.
+            © {{ date('Y') }} GEST-HOTEL. Tous droits réservés.
 
             <span class="mx-2">|</span>
 

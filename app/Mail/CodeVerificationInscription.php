@@ -20,7 +20,7 @@ class CodeVerificationInscription extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Vérification de votre adresse e-mail - GEST-HOSTEL',
+            subject: 'Vérification de votre adresse e-mail - GEST-HOTEL',
         );
     }
 

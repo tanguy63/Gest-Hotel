@@ -13,7 +13,7 @@ class FormuleAbonnementSeeder extends Seeder
             ['slug' => 'essai-gratuit'],
             [
                 'nom' => 'Essai gratuit',
-                'description' => 'Découvrez GEST-HOSTEL gratuitement pendant 7 jours.',
+                'description' => 'Découvrez GEST-HOTEL gratuitement pendant 7 jours.',
                 'prix_mensuel' => 0,
                 'prix_annuel' => 0,
                 'devise' => 'XOF',

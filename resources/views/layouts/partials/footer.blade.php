@@ -4,7 +4,7 @@
     <div class="flex flex-col items-center justify-between gap-2 text-center sm:flex-row sm:text-left">
 
         <p class="text-xs text-slate-500 dark:text-slate-400">
-            © {{ date('Y') }} GEST-HOSTEL. Tous droits réservés.
+            © {{ date('Y') }} GEST-HOTEL. Tous droits réservés.
         </p>
 
         <p class="text-xs text-slate-500 dark:text-slate-400">

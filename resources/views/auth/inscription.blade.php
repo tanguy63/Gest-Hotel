@@ -265,7 +265,7 @@
             >
 
             <label for="conditions" class="text-xs leading-6 text-slate-500">
-                J'accepte les conditions générales d'utilisation et la politique de confidentialité de GEST-HOSTEL.
+                J'accepte les conditions générales d'utilisation et la politique de confidentialité de GEST-HOTEL.
                 <span class="text-red-500">*</span>
             </label>
         </div>

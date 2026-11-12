@@ -348,7 +348,7 @@
 
     <div class="footer">
         <p>Merci pour votre confiance.</p>
-        <p>Document généré par GEST-HOSTEL.</p>
+        <p>Document généré par GEST-HOTEL.</p>
     </div>
 
 </div>

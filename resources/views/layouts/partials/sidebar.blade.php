@@ -11,7 +11,7 @@
 
         <div>
             <h1 class="text-lg font-bold tracking-tight text-primary">
-                GEST-HOSTEL
+                GEST-HOTEL
             </h1>
 
             <p class="text-xs text-text-muted dark:text-slate-400">

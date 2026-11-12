@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Authentification') - GEST-HOSTEL</title>
+    <title>@yield('title', 'Authentification') - GEST-HOTEL</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -19,7 +19,7 @@
 
             <div class="relative z-10">
                 <a href="/" class="text-3xl font-bold tracking-wide">
-                    GEST-HOSTEL
+                    GEST-HOTEL
                 </a>
                 <p class="mt-2 text-sm text-blue-100">
                     La gestion hôtelière simplifiée.
@@ -52,7 +52,7 @@
             </div>
 
             <p class="relative z-10 text-sm text-blue-100">
-                © {{ date('Y') }} GEST-HOSTEL. Tous droits réservés.
+                © {{ date('Y') }} GEST-HOTEL. Tous droits réservés.
             </p>
 
             <div class="absolute -right-32 -bottom-32 h-96 w-96 rounded-full border-[45px] border-white/5"></div>
@@ -66,7 +66,7 @@
 
                 <div class="mb-8 text-center lg:hidden">
                     <a href="/" class="text-2xl font-bold text-[#2457A7]">
-                        GEST-HOSTEL
+                        GEST-HOTEL
                     </a>
                     <p class="mt-1 text-sm text-slate-500">
                         La gestion hôtelière simplifiée.
@@ -76,7 +76,7 @@
                 @yield('content')
 
                 <p class="mt-10 text-center text-xs text-slate-400">
-                    © {{ date('Y') }} GEST-HOSTEL
+                    © {{ date('Y') }} GEST-HOTEL
                 </p>
 
             </div>

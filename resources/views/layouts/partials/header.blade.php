@@ -27,7 +27,7 @@
                 </h2>
 
                 <p class="truncate text-xs text-slate-500 sm:hidden dark:text-slate-400">
-                    {{ $etablissementActif?->nom ?? 'GEST-HOSTEL' }}
+                    {{ $etablissementActif?->nom ?? 'GEST-HOTEL' }}
                 </p>
             </div>
         </div>

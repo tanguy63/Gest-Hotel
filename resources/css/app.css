@@ -10,7 +10,7 @@
 /* Mode sombre activé par la classe .dark */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Identité visuelle GEST-HOSTEL */
+/* Identité visuelle GEST-HOTEL */
 @theme {
     --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 

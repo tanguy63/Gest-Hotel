@@ -114,7 +114,7 @@ class InscriptionController extends Controller
             );
         } catch (Throwable $exception) {
             Log::error(
-                'Erreur envoi du code de vérification GEST-HOSTEL',
+                'Erreur envoi du code de vérification GEST-HOTEL',
                 [
                     'email' => $inscription->email,
                     'erreur' => $exception->getMessage(),
@@ -251,6 +251,6 @@ class InscriptionController extends Controller
 
         return redirect()
             ->route('dashboard')
-            ->with('success', 'Votre adresse e-mail est vérifiée. Bienvenue sur GEST-HOSTEL !');
+            ->with('success', 'Votre adresse e-mail est vérifiée. Bienvenue sur GEST-HOTEL !');
     }
 }

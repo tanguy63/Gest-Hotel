@@ -3,14 +3,14 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Vérification GEST-HOSTEL</title>
+    <title>Vérification GEST-HOTEL</title>
 </head>
 <body style="margin:0; padding:30px; background:#f1f5f9; font-family:Arial,sans-serif;">
 
     <div style="max-width:550px; margin:auto; padding:35px; background:#ffffff; border-radius:12px;">
 
         <h1 style="color:#2457A7; text-align:center;">
-            GEST-HOSTEL
+            GEST-HOTEL
         </h1>
 
         <h2>Vérification de votre adresse e-mail</h2>
@@ -18,7 +18,7 @@
         <p>Bonjour {{ $nomComplet }},</p>
 
         <p>
-            Merci de votre inscription sur GEST-HOSTEL.
+            Merci de votre inscription sur GEST-HOTEL.
             Pour confirmer votre adresse e-mail, utilisez le code suivant :
         </p>
 
@@ -39,7 +39,7 @@
         </p>
 
         <p style="margin-top:30px; color:#64748b;">
-            L'équipe GEST-HOSTEL
+            L'équipe GEST-HOTEL
         </p>
 
     </div>
