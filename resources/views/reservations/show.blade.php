@@ -320,17 +320,6 @@
                                 @endif
                             </td>
                             <td class="px-3 py-4">
-                                @if($paiement->statut === 'valide')
-                                    <span class="rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700">
-                                        Validé
-                                    </span>
-                                @else
-                                    <span class="rounded-full bg-red-100 px-3 py-1 text-xs font-semibold text-red-700">
-                                        Annulé
-                                    </span>
-                                @endif
-                            </td>
-                            <td class="px-3 py-4">
                                 <a href="{{ route('paiements.recu', $paiement->id) }}"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -349,25 +338,7 @@
     @endif
 </div>
 
-    {{-- FORMULAIRE NOUVEAU PAIEMENT --}}
-@php
-    $roleEtablissement = auth()->user()
-        ->etablissements()
-        ->wherePivot('est_actif', true)
-        ->where('etablissements.id', session('etablissement_actif'))
-        ->first()?->pivot?->role;
-@endphp
 
-@if(
-    in_array($roleEtablissement, [
-        'proprietaire',
-        'administrateur',
-        'agent_exploitation',
-        'comptable'
-    ], true)
-    && $reservation->statut !== 'annulee'
-    && $resteAPayer > 0
-)
 
 
     @if($reservation->notes)
