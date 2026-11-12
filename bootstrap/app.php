@@ -14,6 +14,10 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
 
+        // Reconnaître les proxys de l'hébergeur et le HTTPS
+        $middleware->trustProxies(at: '*');
+
+        // Middlewares personnalisés
         $middleware->alias([
             'etablissement.actif' => VerifierEtablissementActif::class,
             'super.admin' => VerifierSuperAdministrateur::class,
