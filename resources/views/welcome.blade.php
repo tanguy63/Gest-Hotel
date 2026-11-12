@@ -93,7 +93,7 @@
 
             <div>
                 <div class="text-xl font-extrabold tracking-tight text-slate-900">
-                    GEST<span class="text-[#2457A7]">-HOSTEL</span>
+                    GEST<span class="text-[#2457A7]">-HOTEL</span>
                 </div>
 
                 <div class="text-[9px] font-semibold tracking-[.2em] text-slate-400">
